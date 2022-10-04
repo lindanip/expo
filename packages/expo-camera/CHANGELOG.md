@@ -15,6 +15,7 @@
 ### 🐛 Bug fixes
 
 - Fix error when calling `takePictureAsync()` on Android emulator. ([#18704](https://github.com/expo/expo/pull/18704)) by [@keith-kurak](https://github.com/keith-kurak))
+- Fix error where `takePictureAsync()` saved the photo to a global cache directory that was inaccessible in Expo Go.
 
 ### 💡 Others
 
